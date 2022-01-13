@@ -67,3 +67,66 @@ img{
     display: flex;
     
 }
+
+/* Header */
+.hero{
+    background: url('./images/home/showcase.jpg') no-repeat center center/cover;
+    height: 100vh;
+    position:relative;
+    color: #fff;
+    /* filter: brightness(30%); */
+}
+
+
+
+.content{
+    /* position: absolute; */
+    display: flex;                                                                                                                                                                                                                                                                                                                                                                              
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    text-align: center;
+    padding: 0 20px;                                                   
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    /* z-index: 100; */
+
+    
+
+                                                                                                
+}                      
+
+.content h1{
+    font-size: 55px;
+        color: #fff !important;
+
+    
+    
+}
+
+.content p{
+    font-size:23px ;
+    max-width:600px ;
+    margin:20px 0 30px ;
+}
+
+.hero::before{
+    content: '';
+    position: absolute;
+    top: o;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,0.6);
+}
+
+/* z-index level up krdeta hai mtlb "the sky is limit" ko upar kr dia
+higher z-index jyada closer to screen
+lower z-index far from screen or screen ke under
+.her0 * ka matlab anything in hero */
+.hero *{
+    z-index: 10;
+}
+
