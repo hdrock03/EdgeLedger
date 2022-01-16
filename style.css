@@ -130,3 +130,64 @@ lower z-index far from screen or screen ke under
     z-index: 10;
 }
 
+/* Icons */
+.icons{
+    padding:30px;
+}
+
+.icons h3{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.icons i{
+    background-color:green;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 50%;
+    /* margin-bottom: 50px; */
+}
+
+.flex-items{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+
+    
+}
+
+.flex-items p {
+    width: 90%;
+}
+
+.flex-items > div{
+    padding:20px
+}
+
+.row {
+    display: flex;
+}
+
+#about {
+    display: flex;
+}
+
+.flex-columns h2{
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.flex-columns h4{
+    margin-bottom:10px ;
+}
+
+.flex-columns p{
+    margin: 20px 0;
+}
+
+/* img me hover daalke opacity daal dege to jb uspe cursor jayega to img contrast hoga thoda */
+.cases img:hover{
+    opacity: 0.7;
+}
